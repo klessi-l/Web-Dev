@@ -1,0 +1,5 @@
+#top { height: 15%; width:100%;                     background-color: maroon }
+#navigation { height: 70%; width:25%;  float: left; background-color: salmon; }
+#content { height: 70%; width:75%;float:left;       background-color: slategray; }
+#footer { height: 15%; width:100%; clear: left;     background-color: tomato; }
+#target { width: 100%;}
