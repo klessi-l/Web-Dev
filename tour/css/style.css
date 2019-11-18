@@ -1,1 +1,16 @@
-# Empty CSS file for your own CSS
+
+.center{
+    text-align: center ;
+}
+.title_style_blue{
+     background-color: lightblue; 
+     color: rgb(238, 64, 1);
+     padding:  2px;    
+    }
+
+    .n1
+    {
+        background-color: lightblue;  
+        text-align: center;
+    }
+
