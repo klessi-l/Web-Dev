@@ -13,4 +13,21 @@
         background-color: lightblue;  
         text-align: center;
     }
+    .d1{
+        border: 1px;
+    }
 
+    .d2{
+        background-color: lightpink;
+    }
+    .d3{
+        background-color: lightblue;  
+    }
+
+    .right{
+        text-align: right ;
+        background-color: lightpink;
+    }
+    .a1{
+        border: 3px solid black;
+    }
