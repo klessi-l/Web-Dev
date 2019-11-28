@@ -1,64 +1,271 @@
 
-.center{
-    text-align: center ;
-}
-.title_style_blue{
-     background-color: lightblue; 
-     color: rgb(238, 64, 1);
-     padding:  2px;    
-    }
-
-    .n1
-    {
-        background-color: lightblue;  
-        text-align: center;
-    }
-
-    .n3{
-        background-color: rgb(62, 174, 226) ;  
-        text-align: center;
-    }
-
-    .n4{
-        background-color: rgb(62, 174, 226);
-        text-align: center;
-    }
-
-    .d6{
-        background-color: lightblue;
-        text-align: left;
-    }
-    .d1{
-        border: 1px;
-    }
-
-    .d2{
-        background-color: lightpink;
-    }
-    .d3{
-        background-color: lightblue;  
-    }
-
-    .right{
-        text-align: right ;
-        background-color: lightpink;
-    }
-    .a1{
-        border: 3px solid black;
-        background-color: rgb(62, 174, 226);
-        padding: 10px;
-        width: 600px;
-        height: 100px;
-    }
-
-    .left1
-    {
-        float: left;
-        width: 50%;
-        background-color: lightblue;
-    }
-
-    .right1{
+    .center{
+        text-align: center ;
+        }
+    
+        .right{
         text-align: right;
-        background-color: lightblue;
-    }
+        }
+    
+        .left{
+            text-align: left;
+        }
+    
+        .q0
+        {
+            border: 3px solid yellow;
+        }
+    
+        .q1{
+            border: 3px solid salmon;
+        }
+    
+        .q2{
+            border: 3px solid salmon;
+        }
+    
+        .q3{
+            border: 3px solid yellow;
+        }
+    
+        .right1{
+            text-align: right; 
+            background-color: rgb(255, 143, 143);
+    
+        }
+    
+        .left1{
+            float: left; /* Обтекание справа */ 
+            width: 50%; /* Ширина текстового блока */
+            background-color: rgb(255, 143, 143); 
+        
+        }
+    
+        .left2{
+            float: left; /* Обтекание справа */ 
+            width: 50%; /* Ширина текстового блока */
+            background-color:pink; 
+        }
+    
+        .right2{
+            text-align: right; 
+            background-color: pink ;     
+        }
+    
+        .left3{
+            float: left;
+            width: 50%;
+            background-color: rgb(243, 243, 122);
+        }
+    
+        
+    
+        .right3{
+            text-align: right; 
+            background-color: rgb(243, 243, 122);  
+        }
+    
+        .right4{
+            text-align: right; 
+            background-color: rgb(247, 247, 118) ;     
+        }
+    
+        .left4{
+            float: left;
+            width: 56%;
+            
+        }
+    
+        .right5{
+            text-align: right;
+        
+        }
+    
+        .left5{
+            width: 55%;
+            float: left;
+        }
+    
+        
+        .right6{
+            text-align: right; 
+            background-color: rgb(236, 204, 209) ;     
+        }
+    
+        .title_style_blue{
+         background-color: lightblue; 
+         color: rgb(238, 64, 1);
+         padding:  2px;    
+        }
+    
+        .n1
+        {
+            background-color: rgb(255, 143, 143);  
+            text-align: center;
+            border: 3px red;
+        }
+    
+        .n2
+        {
+            text-align: center;
+        }
+    
+        .d1{
+            border: 1px;
+        }
+    
+        .d2{
+            background-color: rgb(255, 143, 143);
+            text-shadow: 3;
+        }
+        .d3{ 
+            text-align: left; 
+        }
+    
+        .d4{
+            background-color: yellow;
+            text-shadow: 3;
+        }
+    
+        .d5{
+            background-color: rgb(230, 182, 182);
+            text-shadow: 3;
+        }
+    
+        .d6{
+            background-color: yellow;
+            text-shadow: 3;
+        }
+        
+        .d7{
+            background-color: rgb(255, 143, 143);
+            text-shadow: 3;
+        }
+    
+        .a1{
+            border: 3px solid black;
+        }
+        .a2{
+            text-align: right;
+        }
+    
+        .brd {
+         border:3px salmon solid; width:395px; /* Параметры границы */
+         background: rgb(236, 204, 209); /* Цвет фона */
+         padding: 5px; /* Поля вокруг текста */
+        }
+    
+        .brm {
+            border:3px lightyellow solid; width:400px; /* Параметры границы */
+            background:  rgb(230, 182, 182); /* Цвет фона */
+            padding: 5px; /* Поля вокруг текста */
+           }
+        
+        .brk{
+            border: 3px lightblue solid; width: 400px;
+            background: rgb(7, 180, 233); 
+            padding: 5px;
+        }
+    
+        .brv{
+            border: 3px rgb(236, 236, 34); width: 400px;
+            background: rgb(236, 235, 142); 
+            padding: 5px;
+        }
+    
+        .kru{
+                background: #fefcea; /* Для старых браузров */
+                background: linear-gradient(to top, #fefcea, #f1da36);
+                padding: 10px;
+                border: 1px solid #333;
+        }
+    
+        .avi{
+                background: #fefcea; /* Для старых браузров */
+                background: linear-gradient(to top, #fefcea, #f1da36);
+                padding: 10px;
+                border: 1px solid #333;
+        }
+    
+        .avt{
+                background: #fefcea;
+                background: linear-gradient(to top, #fefcea, #f1da36);
+                padding: 10px;
+                border: 1px solid #333;
+        
+        }
+    
+        .fon{
+        background: #c7b39b; /* Цвет фона и путь к файлу */
+        color: black; /* Цвет текста */
+        }
+    
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+          }
+          
+          .topnav {
+            overflow: hidden;
+            background-color: #333;
+          }
+          
+          .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+          }
+          
+          .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+          }
+          
+          .topnav a.active {
+            background-color: rgb(116, 29, 58);
+            color: white;
+          }
+    
+          .t {
+            overflow: scroll; 
+            width: 650px; 
+            height: 750px; 
+            padding: 5px; 
+            border: solid 1px black;
+            background-color: rgb(247, 247, 118);
+           } 
+    
+           .t1{
+            overflow: scroll; 
+            width: 670px; 
+            height: 750px; 
+            padding: 5px; 
+            border: solid 1px black;
+            background-color: rgb(240, 150, 170);
+           }
+    
+           .t2{
+               overflow: scroll;
+               width: 350;
+               height: 500;
+               border: solid 1px black;
+               background-color: rgb(240, 150, 170);
+           }
+    
+           .k{
+               overflow: scroll;
+               width: 350;
+               height: 500;
+               border: solid 1px black;
+               background-color: rgb(247, 247, 18);
+           }
+    
+        .fon1{
+            background: #fefcea; /* Для старых браузров */
+            background: linear-gradient(to top, #fefcea, #f1da36);
+            padding: 10px;
+            border: 1px solid #333;      
+        }
