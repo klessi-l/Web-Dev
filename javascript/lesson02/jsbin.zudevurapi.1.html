@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2020 by anonymous (http://jsbin.com/zudevurapi/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+  
+</head>
+<body>
+  <div class="container">
+   <h1>Example<h1>
+     <form>
+       <div class="form-group">
+         <label for="first-tb" class="control-label col-md-2">First num:</label>
+         <div class="col-md-10">
+           <input type="text" class="form-control" value="0" id="first-tb">
+         </div>
+       </div>
+       
+       <div class="form-group">
+         <output class="form-control" id="result1"></output>
+       </div>
+       
+       <button type="button" class="btn btn-primary" onclick="run_example01()">Run1</button>
+       <button type="button" class="btn btn-primary" onclick="run_example02x()">Run2</button>
+     </form>    
+  </div>      
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>    
+<script id="jsbin-javascript">
+var outputElement = document.getElementById("result1");
+function run_example01() {
+  var x = parseFloat(document.getElementById("first-tb").value);
+  var f;
+  if((-2<=x) && (x<2)) 
+  {
+    f=x*x+4*x+5
+  }
+  else
+  {
+  f=4;  
+  }
+ 
+  
+  outputElement.innerHTML = f;  
+}
+
+function run_example02(){
+  var s = document.getElementById("first-tb").value;
+  var number = parseInt(s);
+  
+  if (typeof(number)==="number")
+    {
+       if (number % 2 == 0)
+        {
+          outputElement.innerHTML = "This number is even.";
+        }
+       else
+       {
+        outputElement.innerHTML = "This number is odd.";
+       }       
+    }
+  else {
+        outputElement.innerHTML = "Not a number";
+  }
+ 
+}
+</script>
+</body>
+</html>
